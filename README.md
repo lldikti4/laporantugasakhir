@@ -1,6 +1,8 @@
-## Analisis Klaster Sistem Penjaminan Mutu Internal Perguruan Tinggi di Wilayah LLDIKTI 4
+# Judul :
 
-## Bab 1 latar Belakang
+ Analisis Klaster Sistem Penjaminan Mutu Internal Perguruan Tinggi di Wilayah LLDIKTI 4
+
+# Bab 1 latar Belakang
 
 Sistem Penjaminan Mutu Internal (SPMI) merupakan kerangka kerja yang krusial untuk memastikan bahwa pendidikan tinggi di perguruan tinggi mencapai dan mempertahankan standar kualitas yang telah ditetapkan. Implementasi SPMI di perguruan tinggi menjadi sangat penting untuk menjamin bahwa proses pendidikan, penelitian, dan pengabdian kepada masyarakat dilakukan secara efektif dan efisien. Di Wilayah LLDIKTI 4, terdapat berbagai perguruan tinggi dengan karakteristik dan sumber daya yang berbeda, sehingga implementasi SPMI dapat bervariasi.
 
@@ -14,4 +16,21 @@ Dengan demikian, analisis klaster menggunakan metode machine learning tidak hany
 Hasil yang diharapkan dari penelitian ini adalah pemetaan perguruan tinggi di Wilayah LLDIKTI 4 berdasarkan implementasi SPMI mereka, yang akan membantu dalam merumuskan kebijakan peningkatan mutu pendidikan yang lebih efektif dan efisien.
 
 
-## Bab 2
+# Bab 2 Tinjauan Pustaka
+
+## 1. Sistem Penjaminan Mutu Internal (SPMI)
+SPMI merupakan sistem yang dirancang untuk menjamin kualitas pendidikan di perguruan tinggi melalui penerapan standar yang ketat dalam proses pendidikan, penelitian, dan pengabdian kepada masyarakat. Siklus SPMI yang terdiri dari Penetapan Standar, Pelaksanaan Standar, Evaluasi Pelaksanaan Standar, Pengendalian Pelaksanaan Standar, dan Peningkatan Standar Pendidikan Tinggi. SPMI bertujuan untuk memastikan bahwa perguruan tinggi dapat mencapai, memelihara, dan meningkatkan kualitasnya sesuai dengan standar nasional dan internasional yang relevan.
+
+Sistem Pemjaminan Mutu Internal (SPMI) merupakan rangkaian kegiatan sistemik yang dilaksanakan oleh perguruan tinggi secara mandiri untuk mengendalikan dan meningkatkan mutu pendidikan tinggi secara berkelanjutan. Berdasarkan jurnal oleh Arifudin (2019) dan Fadhli (2020), SPMI mencakup beberapa komponen utama: kebijakan dan prosedur penjaminan mutu, persetujuan, pemantauan dan tinjauan berkala program, penilaian mahasiswa, jaminan kualitas tenaga pengajar, sumber belajar dan dukungan siswa, sistem informasi, dan informasi publik. SPMI bertujuan untuk menjamin pemenuhan standar pendidikan tinggi yang telah ditetapkan oleh pemerintah dan perguruan tinggi itu sendiri, sehingga diharapkan dapat meningkatkan kualitas lulusan dan kinerja institusi pendidikan secara keseluruhan. Implementasi SPMI dilakukan melalui siklus yang mencakup perencanaan, pelaksanaan, evaluasi, pengendalian, dan peningkatan (PPEPP). Prinsip-prinsip dasar dalam pelaksanaan SPMI meliputi otonomi, terstandar, akurasi, terencana dan berkelanjutan, serta terdokumentasi. Dalam praktiknya, SPMI tidak hanya berfungsi sebagai alat kontrol kualitas internal tetapi juga sebagai persiapan untuk penjaminan mutu eksternal yang dilakukan oleh badan akreditasi independen seperti BAN-PT di Indonesia. Melalui pelaksanaan SPMI yang efektif, diharapkan perguruan tinggi mampu menghasilkan lulusan yang kompeten dan meningkatkan daya saing di tingkat nasional maupun internasional.
+
+## 2. Machine Learning dalam Analisis Institusi Pendidikan
+Teknologi Machine Learning telah diterapkan dalam berbagai aspek pendidikan tinggi, termasuk dalam pengelolaan dan penjaminan kualitas. Penggunaan machine learning membantu dalam mengelola data besar dari institusi pendidikan untuk memperoleh wawasan yang lebih mendalam mengenai kualitas pendidikan dan penelitian. 
+
+Clustering, sebagai salah satu teknik dalam machine learning, efektif untuk mengelompokkan data berdasarkan kemiripan, sehingga memungkinkan analisis yang lebih spesifik terhadap pola-pola yang ada. Machine learning dalam analisis institusi pendidikan memainkan peran yang krusial dalam meningkatkan kualitas dan efektivitas proses pembelajaran. Melalui teknik seperti K-means clustering, institusi pendidikan dapat mengelompokkan mahasiswa berdasarkan kinerja akademis mereka, sehingga memungkinkan prediksi yang lebih akurat terkait keberhasilan atau kegagalan akademis.
+Penggunaan big data analytics dan educational data mining (EDM) membantu dalam memproses dan menganalisis data pendidikan yang melimpah, termasuk data digital footprint dari interaksi e-learning, nilai ujian, kehadiran, dan frekuensi akses materi. Hasil analisis ini memberikan wawasan mendalam kepada pendidik dan pengambil keputusan, mendukung pengambilan keputusan berbasis data yang lebih efektif, serta memungkinkan intervensi tepat waktu untuk meningkatkan kinerja akademis dan menurunkan tingkat drop-out. Dengan demikian, penerapan machine learning dalam analisis pendidikan tidak hanya mengoptimalkan proses pembelajaran, tetapi juga membantu institusi dalam mengembangkan strategi dan kebijakan yang lebih baik.
+
+## 3. Metode Clustering
+Metode clustering adalah teknik dalam data mining yang digunakan untuk mengelompokkan data ke dalam beberapa kelompok atau klaster berdasarkan kemiripan atau kedekatan karakteristik antar data dalam klaster tersebut. Tujuan utama dari clustering adalah untuk memaksimalkan kesamaan antar data dalam satu klaster dan meminimalkan kesamaan antar klaster yang berbeda. 
+
+a) K-means
+K-means adalah algoritma yang sering digunakan untuk melakukan clustering karena kemudahannya dalam implementasi dan efektivitasnya dalam mengelompokkan data ke dalam kelompok berdasarkan kedekatan karakteristik. Algoritma ini bekerja dengan cara membagi kumpulan data ke dalam beberapa klaster berdasarkan kesamaan di antara data-data tersebut. K- means mengelompokkan data sehingga data dalam satu klaster memiliki kemiripan yang tinggi satu sama lain, sementara data di klaster yang berbeda memiliki perbedaan yang signifikan. Proses K-means dapat dijelaskan melalui langkah-langkah berikut:
